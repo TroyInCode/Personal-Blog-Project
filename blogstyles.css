@@ -1,0 +1,115 @@
+@import url('taskbar.css');
+@import url('socialmedia.css');
+
+* {
+    box-sizing: border-box;
+}
+
+.newcontainer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px auto auto 100px;
+    grid-template-areas: 
+    'tkb'
+    'athr'
+    'main'
+    'ft';
+}
+
+.taskbar {
+    grid-area: tkb;
+}
+
+.author {
+    grid-area: athr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main {
+    grid-area: main;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer {
+    grid-area: ft;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia {
+    grid-area: scmd;
+}
+
+/* Author Info Styling*/
+
+.authorpic {
+    border-radius: 12px;
+}
+
+.author-details{
+    flex-direction: column;
+    font-style: italic;
+}
+
+
+/*Main Styling*/
+
+.traveltext {
+    font-size: 30px;
+}
+
+.mainpic {
+    width: 90%;
+}
+
+/* Footer Styling*/
+
+.copyright {
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+  /*Beach Picture*/
+
+  .beachpic {
+    text-align: center;
+  }
+
+  /* Phones */
+@media screen and (max-width: 425px) {
+
+    .tasklist {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 25px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .author{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        font-style: italic;
+    }
+ }
+
+ @media screen and (min-width:426px) and (max-width: 768px) {
+
+    /* No Adjustments Needed, Displays Fine on Tablets */
+ }
+
+ .caption {
+    color:#404346;
+ }

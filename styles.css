@@ -1,0 +1,57 @@
+@import url('sidebar.css');
+@import url('mainstyle.css');
+@import url('footer.css');
+@import url('screensize.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/airport.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 0.5fr 3fr;
+    grid-template-rows: 100px auto 75px;
+    grid-template-areas:
+        'hd hd'
+        'sd main'
+        'ft ft';
+}
+
+.header {
+    grid-area: hd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main {
+    grid-area: main;
+}
+
+
+.footer {
+    grid-area: ft;
+}
+
+.welcomesection {
+    text-align: center;
+}
+

@@ -1,0 +1,75 @@
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.authorintro {
+    font-family: 'Josefin Sans', sans-serif;   
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+body {
+    background-image: url("images/cityscape.jpg");
+    background-size: cover;
+}
+
+.authorbio {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    background-color: #f3f6f8;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 0.8;
+}
+
+q {
+   font-size: 20px;
+   font-style: italic; 
+}
+
+.tasklist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tasklist > li {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.tasklist > li:hover {
+    cursor: pointer;
+    background-color: #0E97D7;
+}
+
+a{
+    text-decoration: none;
+    color: #2550EF;
+}
+
+a:visited
+
+.newtasklist {
+    color: #000000;
+}
+
+.taskbar {
+    background-color: #f3f6f8;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    opacity: 0.8;
+}

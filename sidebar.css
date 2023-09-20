@@ -1,0 +1,30 @@
+/*Sidebar Styling*/
+
+.sidebar {
+    grid-area: sd;
+    display: flex;
+}
+
+.sideitems {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sideitems > li {
+    width: 100%;
+    padding: 15px;
+}
+
+
+.sideitems > li:hover {
+    cursor: pointer;
+    background-color: #0E97D7;
+}
+
+
+  

@@ -1,0 +1,117 @@
+/* Phones */
+@media screen and (max-width: 425px) {
+    body {
+        background-size: auto;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            'hd'
+            'sd'
+            'main'
+            'ft';
+    }
+
+
+    .sideitems {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 20px;
+        width: 100%;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+/* Tablets */
+@media screen and (min-width:426px) and (max-width: 768px) {
+    .sideitems {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .container {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            'hd'
+            'sd'
+            'main'
+            'ft';
+    }
+
+    body {
+        background-image: url("images/airport.jpg");
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .blogcard {
+        max-width: 100%;
+    }
+
+    .container {
+        padding: 0;
+
+    }
+
+    .main {
+        margin: 0;
+
+    }
+
+    .blogcard {
+        margin: 0;
+
+    }
+
+    .blogtext {
+        margin-bottom: 0;
+
+    }
+
+    .footer {
+        display: flex;
+        align-items: flex-end;
+        margin-top: 400px;
+    }
+}

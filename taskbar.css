@@ -1,0 +1,24 @@
+/*Taskbar Styling*/
+
+.tasklist {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tasklist > li {
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.tasklist > li:hover {
+    cursor: pointer;
+    background-color: #0E97D7;
+}
+
+a{
+    text-decoration: none;
+}
