@@ -6,6 +6,7 @@
 }
 
 .sideitems {
+    color: white;
     list-style: none;
     display: flex;
     flex-direction: column;

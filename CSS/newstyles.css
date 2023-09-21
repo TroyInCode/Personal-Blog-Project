@@ -17,9 +17,10 @@ img {
 }
 
 body {
-    background-image: url("images/cityscape.jpg");
+    background-image: url("../assets/images/cityscape.jpg");
     background-size: cover;
 }
+
 
 .authorbio {
     font-size: 35px;
