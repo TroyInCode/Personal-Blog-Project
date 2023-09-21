@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url("images/airport.jpg");
+    background-image: url("../assets/images/airport.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
