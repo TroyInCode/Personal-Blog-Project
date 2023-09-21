@@ -113,3 +113,10 @@
  .caption {
     color:#404346;
  }
+
+ figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ }
